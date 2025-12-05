@@ -49,7 +49,7 @@ select {
 
 input:focus,
 select:focus {
-    border-color: #2e8b57;
+    border-color:aqua;
     outline: none;
 }
 
