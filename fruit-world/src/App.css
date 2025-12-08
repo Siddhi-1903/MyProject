@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
 }
