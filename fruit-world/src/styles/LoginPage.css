@@ -1,6 +1,6 @@
 /* Background */
 .login-container {
-    height: 100vh;
+    margin-top: 50px;
     width: 100%;
     background-image: url("https://images.unsplash.com/photo-1576402187878-974f70fbc9a0");
     background-size: cover;
@@ -12,8 +12,9 @@
 
 /* Glassmorphism Card */
 .login-card {
-    width: 420px;
+    width: 430px;
     padding: 30px;
+    padding-top: 5px;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
     border-radius: 16px;
@@ -39,7 +40,7 @@ label {
 /* Inputs */
 input,
 select {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     margin-top: 5px;
     border-radius: 8px;
@@ -49,7 +50,7 @@ select {
 
 input:focus,
 select:focus {
-    border-color:aqua;
+    border-color:black;
     outline: none;
 }
 
@@ -58,7 +59,7 @@ select:focus {
     width: 100%;
     padding: 12px;
     margin-top: 24px;
-    background: #2e8b57;
+    background: #7bc200;
     border: none;
     border-radius: 8px;
     color: white;
@@ -68,7 +69,7 @@ select:focus {
 }
 
 .login-btn:hover {
-    background: #1f6b41;
+    background: #7bc200;
 }
 
 /* Signup Text */
@@ -78,6 +79,6 @@ select:focus {
 }
 
 .signup-text a {
-    color: #006400;
+    color:#7bc200;
     font-weight: 600;
 }

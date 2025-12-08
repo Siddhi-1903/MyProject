@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import "./LoginPage.css";
+import "./styles/LoginPage.css";
 
 export default function Login() {
+ 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState("");
@@ -17,29 +18,29 @@ export default function Login() {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h1 className="title">🍎 FruitMart<br/>Login</h1>
+        <h1 className="title">FruitWorld<br />Login</h1>
 
         <form onSubmit={handleSubmit}>
           <label>Email</label>
-          <input 
-            type="email" 
-            placeholder="Enter email" 
+          <input
+            type="email"
+            placeholder="Enter email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            required 
+            required
           />
 
           <label>Password</label>
-          <input 
-            type="password" 
+          <input
+            type="password"
             placeholder="Enter password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            required 
+            required
           />
 
           <label>Login As</label>
-          <select 
+          <select
             value={role}
             onChange={(e) => setRole(e.target.value)}
             required
@@ -55,7 +56,9 @@ export default function Login() {
         </form>
 
         <p className="signup-text">
-          New User? <a href="/register">Create Account</a>
+          New User? 
+          
+          <a href="/RegistrationPage">Create Account</a>
         </p>
       </div>
     </div>

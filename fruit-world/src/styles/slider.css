@@ -1,0 +1,40 @@
+.slider {
+    position: relative;
+    width: 450px;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.slider .prev,
+.slider .next {
+    position: absolute;
+    top: 45%;
+    background: #7bc200;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.tag {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: orange;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}

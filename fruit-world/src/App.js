@@ -1,11 +1,36 @@
-import logo from './logo.svg';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import LoginPage from './LandingPage/LoginPage';
+
+
+import Hero from './LandingPage/Hero';
+import Navbar from './LandingPage/Navbar';
+import TopBar from './LandingPage/Topbar';
+import LoginPage from './LoginPage';
+import RegistrationPage from './RegistrationPage';
+import PageNotFound from './PageNotFound';
+import LandingPage from './LandingPage/LandingPage';
+
 
 function App() {
   return (
     <div className="App">
-      <LoginPage></LoginPage>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<LandingPage></LandingPage>}>
+            <Route path='/Hero' element={<Hero></Hero>}></Route>
+            <Route path='/LoginPage' element={<LoginPage />} />
+             <Route path='/LoginPageAdmin' element={<LoginPage />} />
+            
+            <Route path='/RegistrationPage' element={<RegistrationPage />} />
+
+
+            <Route path="*" element={<PageNotFound></PageNotFound>}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+
+
     </div>
   );
 }
@@ -24,4 +49,9 @@ export default App;
         >
           Learn React
         </a>
-      </header> */}
+      </header> 
+      <RegistrationPage></RegistrationPage>
+
+
+      
+      */}

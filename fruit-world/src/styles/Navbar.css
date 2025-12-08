@@ -1,0 +1,130 @@
+/* .navbar {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #7bc200;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+    color: #555;
+}
+
+.icons span {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cart small {
+    background: orange;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.search-box {
+    display: flex;
+    width: 400px;
+}
+.floating-cart-btn {
+    background-color:#555;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    
+    font-size: 10px;
+
+   
+    
+}
+.slogan {
+    font-size: 14px;
+    font-style: italic;
+    color:#7bc200;
+    margin: 0;
+}
+.logo-container {
+    
+    flex-direction: column;
+   
+  
+} */
+ .navbar {
+     padding: 20px 70px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: white;
+     /* Optional: To ensure navbar has a white background */
+ }
+
+ .logo-container {
+     display: flex;
+     /* Use flex to align children */
+     flex-direction: column;
+     /* Stack the logo and slogan vertically */
+     align-items: center;
+     /* Center both horizontally */
+     /* margin-right: auto; */
+     /* Push logo-container to the left side */
+ }
+
+ .logo {
+     color: #7bc200;
+     font-size: 32px;
+     font-weight: bold;
+     margin: 0;
+ }
+
+ .slogan {
+     font-size: 14px;
+     font-style: italic;
+     color: #7bc200;
+     margin: 0;
+     /* Ensure no extra space around the slogan */
+ }
+
+ .nav-links {
+     display: flex;
+     gap: 25px;
+     list-style: none;
+     font-size: 18px;
+     color: #555;
+ }
+
+ .icons span {
+     margin-left: 20px;
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ .cart small {
+     background: orange;
+     color: white;
+     padding: 2px 5px;
+     border-radius: 50%;
+ }
+
+ .search-box {
+     display: flex;
+     width: 400px;
+ }
+
+ .floating-cart-btn {
+     background-color: #555;
+     color: white;
+     border: none;
+     border-radius: 50%;
+     padding: 8px
+ }

@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+    background: #fafafa;
+}
+
+.hero-left h4 {
+    color: #ff7c00;
+    margin-bottom: 10px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #63b700;
+    margin-bottom: 20px;
+}
+
+
+.h3text{
+    font-size: 20px;
+        color: #63b700;
+        margin-bottom: 20px;
+}
+.h4text{
+    font-size: 15px;
+        color: #63b700;
+        margin-bottom: 20px;
+
+}
+
+
+
+.search-box input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50px 0 0 50px;
+}
+
+.search-box button {
+    padding: 15px 25px;
+    background: #7bc200;
+    color: white;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.topbar {
+    background: #7bc200;
+    color: white;
+    padding: 8px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.topbar .left span,
+.topbar .right a {
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
